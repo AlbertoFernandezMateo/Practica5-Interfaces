@@ -5,10 +5,7 @@ import javax.swing.JTextField;
 import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
 
-/**
- * Calculadora del ejercicio 7.
- * Método de eventos: FocusListener, con focusGained y focusLost en los dos campos.
- */
+
 public class Calculadora extends JFrame implements FocusListener {
 
     private final JTextField campoPrimerNumero;
